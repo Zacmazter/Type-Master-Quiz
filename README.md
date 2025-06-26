@@ -2,9 +2,6 @@
 
 A Python-based GUI quiz application designed to test and improve your knowledge of Pokémon type effectiveness. Challenge yourself with different game modes, learn from your mistakes with instant feedback, and track your high scores!
 
- 
-*(This is a sample screenshot. You can create your own and replace the link!)*
-
 ---
 
 ## Features
@@ -84,8 +81,7 @@ You can package this application into a single, double-clickable `.exe` file usi
 
 ## License
 
-This project is licensed under the MIT License. See the `LICENSE` file for details. *(You can add a LICENSE file to your repository if you wish.)*
-
+This project is licensed under the MIT License.
 ---
 
 Created by **Isaac McGowan**
