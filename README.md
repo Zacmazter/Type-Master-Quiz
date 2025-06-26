@@ -4,8 +4,7 @@
 
 ## Project Overview
 
-**Type Master** is a desktop application built with Google AI Studio Python and the Tkinter library, designed to help Pokémon fans master type matchups. This project provides instant feedback through an interactive quiz and includes a full, scrollable type chart for reference.
-
+**Type Master** is a desktop application built with Google AI Studio Python and the Tkinter library, designed to help Pokémon fans master type matchups. This project provides instant feedback through an interactive quiz.
 This project was a personal challenge to develop skills in:
 -   GUI (Graphical User Interface) development with Tkinter.
 -   Data management and structuring in Python.
