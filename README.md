@@ -80,8 +80,7 @@ You can package this application into a single, double-clickable `.exe` file usi
 ---
 
 ## License
-
-This project is licensed under the MIT License.
+To Thrill.
 ---
 
 Created by **Isaac McGowan**
