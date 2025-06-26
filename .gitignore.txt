@@ -1,0 +1,15 @@
+# Python temporary files
+__pycache__/
+*.pyc
+
+# PyInstaller generated files
+/dist/
+/build/
+*.spec
+
+# High score file (user-specific data)
+highscore.txt
+
+# IDE / Editor folders
+.vscode/
+.idea/
