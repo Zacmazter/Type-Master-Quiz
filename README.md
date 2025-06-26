@@ -1,42 +1,91 @@
-# Type Master - A Pokémon Type Quiz App by Isaac McGowan
+# Type Master Quiz
 
+A Python-based GUI quiz application designed to test and improve your knowledge of Pokémon type effectiveness. Challenge yourself with different game modes, learn from your mistakes with instant feedback, and track your high scores!
 
-
-## Project Overview
-
-**Type Master** is a desktop application built with Google AI Studio Python and the Tkinter library, designed to help Pokémon fans master type matchups. This project provides instant feedback through an interactive quiz.
-This project was a personal challenge to develop skills in:
--   GUI (Graphical User Interface) development with Tkinter.
--   Data management and structuring in Python.
--   Application logic and state management.
--   Packaging a Python script into a distributable `.exe` file using PyInstaller.
+ 
+*(This is a sample screenshot. You can create your own and replace the link!)*
 
 ---
 
 ## Features
 
--   **Interactive Quiz:** Dynamically generated questions covering single and dual-type matchups.
--   **Instant Feedback:** Pop-up messages immediately inform the user if their answer was correct.
-
-
--   **Standalone Application:** Packaged into a single `.exe` file, requiring no installation of Python or other dependencies.
-
----
-
-## How to Run
-
-### 1. The Executable (Easiest Way)
-You can download the final `app.exe` from the **[Releases page](https://github.com/Zacmazter/Type-Master-Quiz/releases)** of this repository. Just download and double-click to run on any Windows machine.
-
-### 2. Running from Source
-If you want to run the project from the source code:
-1.  Make sure you have Python 3.9+ installed.
-2.  Clone this repository: `git clone https://github.com/Zacmazter/Type-Master-Quiz.git`
-3.  Navigate into the directory: `cd Type-Master-Quiz`
-4.  Run the application: `python app.py`
+- **Modern & Clean UI:** A dark-themed interface built with Tkinter, featuring colored "pills" for Pokémon types.
+- **Multiple Game Modes:** Choose from Endless, Timed, or Challenge modes to suit your playstyle.
+- **Instant Feedback:** No more disruptive pop-ups! Get immediate color-coded feedback on your answers directly within the app.
+- **Calculation Breakdown:** Understand *why* an answer is correct with a simple breakdown of the damage calculation for dual-type matchups.
+- **High Score Tracking:** Your best score in the 60-second Timed Challenge is saved locally.
+- **Built-in Type Chart:** Quickly reference a full, color-coded type effectiveness chart anytime.
+- **Sound Effects:** Optional audio cues for correct and incorrect answers.
+- **Standalone Executable:** Can be easily packaged into a single `.exe` file for distribution on Windows.
 
 ---
 
-## Acknowledgements
+## Game Modes Explained
 
-This is a fan-made project created for educational and portfolio purposes. Pokémon and all related characters and names are trademarks and © of Nintendo, Creatures Inc., and GAME FREAK inc.
+- **Endless Mode:** Play for as long as you want. The quiz continues indefinitely, tracking your score and the number of questions answered.
+- **Timed Challenge (60s):** How many questions can you answer correctly in 60 seconds? This is where your high score is recorded!
+- **10 Question Challenge:** A fixed-length quiz. At the end, you'll get your final score out of 10.
+
+---
+
+## Technologies Used
+
+- **Python 3**
+- **Tkinter** (for the Graphical User Interface)
+- **Playsound** (for optional sound effects)
+- **PyInstaller** (for creating the executable)
+
+---
+
+## How to Run from Source Code
+
+To run this application from the source code, follow these steps:
+
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/Zacmazter/Type-Master-Quiz.git
+    ```
+
+2.  **Navigate to the project directory:**
+    ```bash
+    cd Type-Master-Quiz
+    ```
+
+3.  **Install the required dependencies:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4.  **Run the application:**
+    ```bash
+    python app.py
+    ```
+
+---
+
+## Creating the Executable
+
+You can package this application into a single, double-clickable `.exe` file using PyInstaller.
+
+1.  **Install PyInstaller:**
+    ```bash
+    pip install pyinstaller
+    ```
+
+2.  **Run the build command from the project directory:**
+    ```bash
+    pyinstaller --onefile --windowed --name="TypeMaster" --icon="path/to/your/icon.ico" app.py
+    ```
+    *(The `--icon` flag is optional but recommended for a professional look.)*
+
+3.  Find your finished application inside the newly created `dist` folder.
+
+---
+
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for details. *(You can add a LICENSE file to your repository if you wish.)*
+
+---
+
+Created by **Isaac McGowan**
